@@ -1,0 +1,74 @@
+.navbar{
+  background-color:#002147;
+}
+
+.middle-form{
+  margin-top: 160px;
+}
+
+.btn-warning{
+  width: 100%;
+}
+
+.back-box{
+  background-color: #EEE;
+}
+
+small{
+  font-size: 11px;
+}
+
+.panel > .panel-heading{
+  background-color: #002147;
+  color: white;
+}  
+
+.panel-default{
+  border-color: #002147;
+}
+
+@media (max-width: 767px) {
+  .panel-default{
+    margin-top: -80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .fgt-pass{
+    margin-top: -25px;
+  }
+
+  .navbar-text{
+    margin-top: 1px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1020px){
+  .panel-default{
+    margin-top: -80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }    
+}
+
+@media (min-width: 1021px) and (max-width: 1297px){
+  .fgt-pass{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  #checkbox{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1282px) and (max-width: 1314px){
+  .fgt-pass{
+    font-size: 13px;
+    margin-top: 5px;
+  }
+
+  #checkbox{
+    font-size: 13px;
+  }
+}

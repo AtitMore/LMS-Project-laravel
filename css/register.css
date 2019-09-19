@@ -1,0 +1,45 @@
+.navbar{
+  background-color:#002147;
+}
+
+.middle-form{
+  margin-top: 85px;
+}
+
+.btn-warning{
+  width: 100%;
+}
+
+.back-box{
+  background-color: #EEE;
+}
+
+small{
+  font-size: 11px;
+}
+
+.panel > .panel-heading{
+  background-color: #002147;
+  color: white;
+}
+
+.panel-default{
+  border-color: #002147;
+  margin-bottom: 55px;
+}
+
+.instruct{
+  margin-top: -5px;
+}
+
+@media (max-width: 1008px) {
+  .panel-default{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+
+  .navbar-text{
+    margin-top: 1px;
+  }
+}

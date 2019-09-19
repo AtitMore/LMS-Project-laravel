@@ -1,0 +1,92 @@
+.navbar-inverse{
+	background-color: #002147;
+}
+
+.fa-pencil-square-o{
+	color: #EEE;
+	margin-right: -20px;
+}
+
+.navbar-form{
+	padding-left: 100px;
+}
+
+#cover-btn{
+	margin-left: 763px;
+	margin-top: -70px;
+}
+
+.panel-border{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: -20px;
+}
+
+#profile-btn{
+	margin-left: 125px;
+	margin-top: -60px;
+	background-color: #EEE;
+}
+
+.panel-profile{
+	margin-bottom: -15px;
+}
+
+.panel{
+	background-color: #EEE;
+}
+
+.panel-status{
+	margin-bottom: -10px;
+}
+
+.btn-circle{
+  width: 110px;
+  height: 35px;
+  padding-top: -20px;
+  border-radius: 15px;
+}
+
+.icon-nav{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.panel-status:hover{
+
+}
+
+@media (max-width: 480px) {
+	.input-group-sm{
+		margin-left: -85px;
+		width: 285px;
+	}
+
+	.profile-xs{
+		margin-top: 55px;
+	}
+
+	.panel{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.btn-circle{
+		width: 100px;
+	}
+
+	.foot-status{
+		margin-left: -12px;
+	}
+
+	.setn-status-xs{
+		margin-top: -27px;
+		margin-right: -10px;
+	}
+
+	.post-status-xs{
+		margin-right: -10px;
+		margin-top: -5px;
+	}
+}

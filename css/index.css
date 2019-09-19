@@ -1,0 +1,171 @@
+body{
+	background-color: #EEE;
+}
+
+.navbar-inverse{
+	background-color: #002147;
+}
+
+.row-body{
+	margin-top: -30px;
+}
+
+.panel > .panel-heading{
+	background-color: #002147;
+	color: white; 
+}
+
+.carousel-indicator{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 5;
+	margin: 0;
+	list-style: none;
+}
+
+.carousel-caption{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	padding: 0px;
+	background: rgba(0,0,0,0.75);
+}
+
+.carousel-caption h3{
+	line-height: 20px;
+	color: white;
+}
+
+h3{
+	font-size: 17.5px;
+}
+
+.panel{
+	border-color: #002147;
+}
+
+.panel-nav{
+	margin-top: 30px;
+}
+
+.nopadding{
+	padding-left: 0px;
+}
+
+.sub-width{
+	width: 120px;
+}
+
+#pad-up{
+	margin-top: -10px;
+}
+
+.row-pad{
+	margin-bottom: 80px;
+}
+
+#btn-submit{
+	width: 120px;
+}
+
+@media (max-width: 480px){
+	.nopadding{
+		padding-left: 15px;
+	}
+
+	h3{
+		font-size: 12px;
+	}
+
+	.carousel-caption{
+		bottom: -5px;
+	}
+
+	.navbar-text{
+		margin-top: 1px;
+	}
+
+	#remember_p{
+		margin-left: 105px;
+		position: absolute;
+		margin-top: -25px;
+	}
+
+	.panel-nav{
+		margin-bottom: 40px;
+	}
+
+	.row-pad{
+		margin-bottom: 30px;
+	}
+
+	.modal{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 640px){
+	#remember_p{
+		margin-left: 255px;
+		position: absolute;
+		margin-top: -25px;
+	}
+
+	.carousel-caption{
+		bottom: -5px;
+	}
+
+	.modal{
+		padding-left: 5px;
+		margin-right: -12px;
+		padding-top: 10px;
+	}
+}
+
+@media (width: 640px){
+	#remember_p{
+		margin-left: 415px;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 767px){
+	#remember_p{
+		padding: 0px;
+		margin-top: -27px;
+		position: absolute;
+		margin-left: 415px;	
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1020px){
+	input{
+		margin-left: -10px;
+	}
+
+	.sub-width{
+		width: 60px;
+		text-align: center;
+		margin-left: -10px;
+	}
+
+	#remember_p{
+		padding: 0px;
+		margin-left: -10px;	
+	}
+}
+
+@media (min-width: 1021px) and (max-width: 1071px){
+	#remember_p{
+		padding: 0px;
+	}
+}
+
+@media (min-width: 1072px) and (max-width: 1680px){
+	#remember_p{
+		padding: 0px;
+		margin-top: 7px;
+	}
+}
